@@ -10,7 +10,7 @@ var Procsv = {
       options.callback();
     } else {
       $.ajax({
-        url: 'csv+/' + t + '.csv',
+        url: 'csv/' + t + '.csv',
         type: 'get',
         dataType: 'text',
         success: function(data) {
